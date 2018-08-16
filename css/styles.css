@@ -14,6 +14,15 @@ html, body {
   width: 100%;
 }
 
+h1 {
+  text-align: center;
+  color: white;
+}
+h2 {
+  text-align: center;
+  color: white;
+}
+
 @media only screen and (max-width: 600px) {
   .hero-bkg-animated {
     -webkit-animation: slide 40s ease-in-out infinite;
@@ -26,11 +35,3 @@ html, body {
     100% { background-position: 100% 0; }
 }
 
-h1 {
-  text-align: center;
-  color: white;
-}
-h2 {
-  text-align: center;
-  color: white;
-}
