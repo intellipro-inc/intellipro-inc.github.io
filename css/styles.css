@@ -9,9 +9,15 @@ html, body {
   margin: 0;
   background: black url('../img/img-3730-1_orig.jpg') no-repeat; 
   background-size: auto 100%;
-  -webkit-animation: slide 20s ease-in-out infinite;
+
   height: 100%;
   width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-bkg-animated {
+    -webkit-animation: slide 40s ease-in-out infinite;
+  }
 }
 
 @-webkit-keyframes slide {
